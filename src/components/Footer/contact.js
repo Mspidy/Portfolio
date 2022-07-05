@@ -56,7 +56,7 @@ class Contact extends React.Component {
                                     type="textarea"
                                 />
                                 <Button color="success" size="lg" type="button" style={{ marginTop: "40px", fontSize: "20px" }}>
-                                    Hire Me
+                                    Contact Me
                                 </Button>
                             </Form>
                         </div>
