@@ -7,14 +7,6 @@ import html2canvas from "html2canvas";
 
 class Header extends React.Component {
 
-    submitForm = async (event) => {
-        event.preventDefault(); // prevent page reload
-        const blob = await pdf(
-            <MyDoc />
-        ).toBlob();
-    
-        saveAs(blob, 'Prabhat.pdf');
-    }
     render() {
         return (
             <>
@@ -27,7 +19,7 @@ class Header extends React.Component {
 
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li style={{ marginLeft: "100px" }}>
-                                        <Button type="button" className="btn btn-outline-success" onClick={this.submitForm}>Resume</Button>
+                                        <Button type="button" className="btn btn-outline-success">Resume</Button>
                                     </li>
                                     <li className="nav-item" style={{ marginLeft: "50px" }}>
                                         <Button type="button" className="btn btn-outline-info">Project</Button>
