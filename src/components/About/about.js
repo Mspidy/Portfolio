@@ -6,7 +6,7 @@ class About extends React.Component {
         return (
             <>
                 <h1 style={{ color: "#333", marginTop: "200px", fontSize: "90px", fontFamily: "Circularstd, sans-serif", color: "blank", marginLeft: "-750px" }}>Here's a bit</h1>
-                <h1><strong style={{ color: "#4f7fd6", fontFamily: "Circularstd, sans-serif", fontSize: "70px", marginLeft: "-750px" }}>about me</strong></h1>
+                <h1 style={{marginTop:"-50px"}}><strong style={{ color: "#4f7fd6", fontFamily: "Circularstd, sans-serif", fontSize: "70px", marginLeft: "-750px" }}>about me</strong></h1>
                 <Card color="primary" style={{ marginLeft: "600px", marginBottom: "100px", marginTop: "-350px", marginRight: "10px" }}>
                     <CardText style={{ marginBottom: "100px" }}>
                         <h1>Why Work With Me ?</h1>
